@@ -7,18 +7,20 @@
 #define RAPIDJSON_ASSERT(x) ((void)0)
 #endif // RAPIDJSON_ASSERT
 
-//#include "rapidjson/error/en.h"
-//#include "rapidjson/filereadstream.h"
-//#include "rapidjson/schema.h"
-//#include "rapidjson/stringbuffer.h"
-//#include "rapidjson/prettywriter.h"
+#include "rapidjson/error/en.h"
+#include "rapidjson/filereadstream.h"
+#include "rapidjson/schema.h"
+#include "rapidjson/stringbuffer.h"
+#include "rapidjson/prettywriter.h"
 
 #include "rapidjson/document.h"
+#include "rapidjson/allocators.h"
 using namespace rapidjson;
 
 
 #include <Rcpp.h>
 using namespace Rcpp;
+
 
 // [[Rcpp::export]]
 void testRapidjson(const char* json) {
