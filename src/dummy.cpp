@@ -11,19 +11,7 @@
  * git clone https://github.com/tencent/rapidjson --branch v1.1.0 --depth 1
  */
 
-
 #include "rapidjson/document.h"
-/*
-#include "rapidjson/error/en.h"
-#include "rapidjson/filereadstream.h"
-#include "rapidjson/schema.h"
-#include "rapidjson/stringbuffer.h"
-#include "rapidjson/prettywriter.h"
-
-#include "rapidjson/allocators.h"
-using namespace rapidjson;
-*/
-
 #include <Rcpp.h>
 using namespace Rcpp;
 
