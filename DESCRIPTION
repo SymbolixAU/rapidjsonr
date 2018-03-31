@@ -1,13 +1,13 @@
 Package: rapidjsonr
 Type: Package
 Title: Rapidjson C++ Header Files
-Version: 0.1.0
+Version: 1.0.0
 Authors@R: c(
     person("David", "Cooley", ,"dcooley@symbolix.com.au", role = c("aut", "cre"))
     )
 Description: Rapidjson provides a c++ header-only library for parsing GeoJSON.  
     This package exposes those header files for use in R libraries. 
-License: What license is it under?
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 LinkingTo: Rcpp
