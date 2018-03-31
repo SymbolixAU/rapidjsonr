@@ -1,3 +1,3 @@
-#' @useDynLib rapidjsonr
+#' @useDynLib rapidjsonr, .registration=TRUE
 #' @importFrom Rcpp sourceCpp
-NULL
+"_PACKAGE"
