@@ -36,6 +36,8 @@ To use `rapidjsonr` in your own package, add a dependency to `rapidjsonr` to you
 #include <Rcpp.h>
 ```
 
+## License
 
+This package is provided under the MIT license, as per Rapidjson itself. 
 
 
