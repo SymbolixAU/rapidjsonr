@@ -1,3 +1,2 @@
-#' @useDynLib rapidjsonr, .registration=TRUE
-#' @importFrom Rcpp sourceCpp
+# Provides rapidjson headers
 "_PACKAGE"

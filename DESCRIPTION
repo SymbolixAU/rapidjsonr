@@ -10,7 +10,5 @@ Description: Rapidjson provides a c++ header-only library for parsing GeoJSON.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-LinkingTo: Rcpp
-Imports: Rcpp
 RoxygenNote: 6.0.1
 SystemRequirements: GNU make
