@@ -8,3 +8,10 @@
 0 errors | 0 warnings | 1 note
 
 * This is a new release.
+
+## Response to CRAN Submission change requests
+
+* changed the description to better describe the package 
+* single-quotes added around software names
+* added MIT template license
+* added an example

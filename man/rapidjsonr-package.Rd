@@ -4,9 +4,17 @@
 \name{rapidjsonr-package}
 \alias{rapidjsonr}
 \alias{rapidjsonr-package}
-\title{This package provides rapidjson headers for parsing JSON}
+\title{Proivdes JSON parsing capability through the 'Rapidjson' 'C++' header-only library.}
 \description{
-This package provides rapidjson headers for parsing JSON
+Proivdes JSON parsing capability through the 'Rapidjson' 'C++' header-only library.
+}
+\examples{
+\dontrun{
+
+# Include a dependency to rapidjsonr inside a cpp file
+// [[Rcpp::depends(rapidjsonr)]]
+include <Rcpp.h>
+}
 }
 \author{
 \strong{Maintainer}: David Cooley \email{dcooley@symbolix.com.au}
