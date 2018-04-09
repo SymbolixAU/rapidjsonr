@@ -11,6 +11,8 @@
 
 ## Response to CRAN Submission change requests
 
+* add c++ library authors to DESCRIPTION
+* fixed spelling mistake in DESCRIPTION
 * changed the description to better describe the package 
 * single-quotes added around software names
 * added MIT template license

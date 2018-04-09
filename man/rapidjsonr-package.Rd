@@ -19,4 +19,10 @@ include <Rcpp.h>
 \author{
 \strong{Maintainer}: David Cooley \email{dcooley@symbolix.com.au}
 
+Other contributors:
+\itemize{
+  \item Milo Yip (Author of c++ rapidjson library, provided through THL A29 Limited, a Tencent company) [contributor]
+  \item Alexander Chemeris (Author of c++ msinttypes library) [contributor]
+}
+
 }
