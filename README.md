@@ -1,5 +1,10 @@
 
-[![Travis build status](https://travis-ci.org/SymbolixAU/rapidjsonr.svg?branch=master)](https://travis-ci.org/SymbolixAU/rapidjsonr)
+[![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/rapidjsonr)](http://cran.r-project.org/package=rapidjsonr)
+![downloads](http://cranlogs.r-pkg.org/badges/grand-total/rapidjsonr)
+[![CRAN RStudio mirror downloads](http://cranlogs.r-pkg.org/badges/rapidjsonr)](http://cran.r-project.org/web/packages/rapidjsonr/index.html)
+[![Github Stars](https://img.shields.io/github/stars/SymbolixAU/rapidjsonr.svg?style=social&label=Github)](https://github.com/SymbolixAU/rapidjsonr)
+[![Build Status](https://travis-ci.org/SymbolixAU/rapidjsonr.svg?branch=master)](https://travis-ci.org/SymbolixAU/rapidjsonr)
+[![Coverage Status](https://codecov.io/github/SymbolixAU/rapidjsonr/coverage.svg?branch=master)](https://codecov.io/github/SymbolixAU/rapidjsonr?branch=master)
 
 # rapidjsonr
 
