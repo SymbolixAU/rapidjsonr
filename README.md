@@ -10,23 +10,25 @@
 
 R interface to the C++ header-only [Rapidjson](https://github.com/Tencent/rapidjson) library
 
-This package is using v1.1.0 of rapid json 
+This package is using v1.2-beta build of rapidjson. This is necessary to overcome `gcc` compiler warnings on CRAN, which are [fixed in this patch](https://github.com/Tencent/rapidjson/pull/1323)
 
 <!-- git clone https://github.com/tencent/rapidjson --branch v1.1.0 --depth 1 -->
+<!-- git clone https://github.com/tencent/rapidjson --branch master --depth 1 -->
 
 
 ## Install
+
+From CRAN
+
+```
+install.packages("rapidjsonr")
+```
+
 
 Install the development version with
 
 ```
 devtools::install_github("SymbolixAU/rapidjsonr")
-```
-
-When on CRAN you can install the release version with
-
-```
-install.packages("rapidjsonr")
 ```
 
 ## Using rapidjsonr

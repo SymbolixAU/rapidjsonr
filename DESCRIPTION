@@ -1,8 +1,8 @@
 Package: rapidjsonr
 Type: Package
 Title: 'Rapidjson' C++ Header Files
-Version: 1.0.0001
-Date: 2018-04-09
+Version: 1.1
+Date: 2018-09-22
 Authors@R: c(
     person("David", "Cooley", ,"dcooley@symbolix.com.au", role = c("aut", "cre")),
     person("Milo", "Yip", , role = "ctb", comment = "Author of c++ rapidjson library, provided through THL A29 Limited, a Tencent company"),
