@@ -6,7 +6,7 @@
 \alias{rapidjsonr-package}
 \title{Proivdes JSON parsing capability through the 'Rapidjson' 'C++' header-only library.}
 \description{
-Proivdes JSON parsing capability through the 'Rapidjson' 'C++' header-only library.
+Provides JSON parsing capability through the 'Rapidjson' 'C++' header-only library.
 }
 \examples{
 \dontrun{

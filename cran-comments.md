@@ -1,6 +1,7 @@
 
 * Updates v1.0 to v1.1
 * Includes a patch for gcc compiler warnings
+* Fixed invalid (non-canonical) URLs in REAMDE.md
 
 ## Tests
 

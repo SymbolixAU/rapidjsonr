@@ -1,8 +1,8 @@
 Package: rapidjsonr
 Type: Package
 Title: 'Rapidjson' C++ Header Files
-Version: 1.1
-Date: 2018-09-22
+Version: 1.1.0001
+Date: 2019-09-27
 Authors@R: c(
     person("David", "Cooley", ,"dcooley@symbolix.com.au", role = c("aut", "cre")),
     person("Milo", "Yip", , role = "ctb", comment = "Author of c++ rapidjson library, provided through THL A29 Limited, a Tencent company"),
@@ -12,5 +12,5 @@ Description: Provides JSON parsing capability through the 'Rapidjson' 'C++' head
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.0.1
+RoxygenNote: 6.1.1
 SystemRequirements: GNU make
