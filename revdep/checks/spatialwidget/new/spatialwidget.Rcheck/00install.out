@@ -1,0 +1,1170 @@
+* installing *source* package ‘spatialwidget’ ...
+** package ‘spatialwidget’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+ccache g++ -std=gnu++11 -I"/usr/share/R/include" -DNDEBUG -DSTRICT_R_HEADERS -I"/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/geojsonsf/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/jsonify/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/rapidjsonr/new/rapidjsonr/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include"  -I../inst/include -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-V28x5H/r-base-3.6.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+ccache g++ -std=gnu++11 -I"/usr/share/R/include" -DNDEBUG -DSTRICT_R_HEADERS -I"/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/geojsonsf/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/jsonify/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/rapidjsonr/new/rapidjsonr/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include"  -I../inst/include -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-V28x5H/r-base-3.6.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c data_construction.cpp -o data_construction.o
+ccache g++ -std=gnu++11 -I"/usr/share/R/include" -DNDEBUG -DSTRICT_R_HEADERS -I"/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/geojsonsf/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/jsonify/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/rapidjsonr/new/rapidjsonr/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include"  -I../inst/include -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-V28x5H/r-base-3.6.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c geojson.cpp -o geojson.o
+In file included from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/colours.hpp:10:0,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/colours/colours_hex.hpp:5,
+                 from ../inst/include/spatialwidget/spatialwidget.hpp:7,
+                 from geojson.cpp:2:
+/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/math/interpolators/cubic_b_spline.hpp:28:81: note: #pragma message: This header is deprecated. Use <boost/math/interpolators/cardinal_cubic_b_spline.hpp> instead.
+ BOOST_HEADER_DEPRECATED("<boost/math/interpolators/cardinal_cubic_b_spline.hpp>");
+                                                                                 ^
+In file included from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/smart_ptr/shared_ptr.hpp:28:0,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/shared_ptr.hpp:17,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_month.hpp:14,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_ymd.hpp:16,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_calendar.hpp:17,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/gregorian_types.hpp:19,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_config.hpp:18,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_system.hpp:13,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/ptime.hpp:12,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/local_time/local_time.hpp:11,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/format/format.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/colours/colours_hex.hpp:9,
+                 from ../inst/include/spatialwidget/spatialwidget.hpp:7,
+                 from geojson.cpp:2:
+/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/smart_ptr/detail/shared_count.hpp:356:33: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+     explicit shared_count( std::auto_ptr<Y> & r ): pi_( new sp_counted_impl_p<Y>( r.get() ) )
+                                 ^~~~~~~~
+In file included from /usr/include/c++/7/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7/locale:43,
+                 from /usr/include/c++/7/iomanip:43,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/RcppCommon.h:52,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/Rcpp.h:27,
+                 from geojson.cpp:1:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/shared_ptr.hpp:17:0,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_month.hpp:14,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_ymd.hpp:16,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_calendar.hpp:17,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/gregorian_types.hpp:19,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_config.hpp:18,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_system.hpp:13,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/ptime.hpp:12,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/local_time/local_time.hpp:11,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/format/format.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/colours/colours_hex.hpp:9,
+                 from ../inst/include/spatialwidget/spatialwidget.hpp:7,
+                 from geojson.cpp:2:
+/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/smart_ptr/shared_ptr.hpp:256:65: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+ template< class T, class R > struct sp_enable_if_auto_ptr< std::auto_ptr< T >, R >
+                                                                 ^~~~~~~~
+In file included from /usr/include/c++/7/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7/locale:43,
+                 from /usr/include/c++/7/iomanip:43,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/RcppCommon.h:52,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/Rcpp.h:27,
+                 from geojson.cpp:1:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/shared_ptr.hpp:17:0,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_month.hpp:14,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_ymd.hpp:16,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_calendar.hpp:17,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/gregorian_types.hpp:19,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_config.hpp:18,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_system.hpp:13,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/ptime.hpp:12,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/local_time/local_time.hpp:11,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/format/format.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/colours/colours_hex.hpp:9,
+                 from ../inst/include/spatialwidget/spatialwidget.hpp:7,
+                 from geojson.cpp:2:
+/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/smart_ptr/shared_ptr.hpp:471:31: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+     explicit shared_ptr( std::auto_ptr<Y> & r ): px(r.get()), pn()
+                               ^~~~~~~~
+In file included from /usr/include/c++/7/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7/locale:43,
+                 from /usr/include/c++/7/iomanip:43,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/RcppCommon.h:52,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/Rcpp.h:27,
+                 from geojson.cpp:1:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/shared_ptr.hpp:17:0,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_month.hpp:14,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_ymd.hpp:16,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_calendar.hpp:17,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/gregorian_types.hpp:19,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_config.hpp:18,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_system.hpp:13,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/ptime.hpp:12,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/local_time/local_time.hpp:11,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/format/format.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/colours/colours_hex.hpp:9,
+                 from ../inst/include/spatialwidget/spatialwidget.hpp:7,
+                 from geojson.cpp:2:
+/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/smart_ptr/shared_ptr.hpp:484:22: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+     shared_ptr( std::auto_ptr<Y> && r ): px(r.get()), pn()
+                      ^~~~~~~~
+In file included from /usr/include/c++/7/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7/locale:43,
+                 from /usr/include/c++/7/iomanip:43,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/RcppCommon.h:52,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/Rcpp.h:27,
+                 from geojson.cpp:1:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/shared_ptr.hpp:17:0,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_month.hpp:14,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_ymd.hpp:16,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_calendar.hpp:17,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/gregorian_types.hpp:19,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_config.hpp:18,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_system.hpp:13,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/ptime.hpp:12,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/local_time/local_time.hpp:11,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/format/format.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/colours/colours_hex.hpp:9,
+                 from ../inst/include/spatialwidget/spatialwidget.hpp:7,
+                 from geojson.cpp:2:
+/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/smart_ptr/shared_ptr.hpp:567:34: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+     shared_ptr & operator=( std::auto_ptr<Y> & r )
+                                  ^~~~~~~~
+In file included from /usr/include/c++/7/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7/locale:43,
+                 from /usr/include/c++/7/iomanip:43,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/RcppCommon.h:52,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/Rcpp.h:27,
+                 from geojson.cpp:1:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/shared_ptr.hpp:17:0,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_month.hpp:14,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_ymd.hpp:16,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_calendar.hpp:17,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/gregorian_types.hpp:19,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_config.hpp:18,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_system.hpp:13,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/ptime.hpp:12,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/local_time/local_time.hpp:11,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/format/format.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/colours/colours_hex.hpp:9,
+                 from ../inst/include/spatialwidget/spatialwidget.hpp:7,
+                 from geojson.cpp:2:
+/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/smart_ptr/shared_ptr.hpp:576:34: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+     shared_ptr & operator=( std::auto_ptr<Y> && r )
+                                  ^~~~~~~~
+In file included from /usr/include/c++/7/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7/locale:43,
+                 from /usr/include/c++/7/iomanip:43,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/RcppCommon.h:52,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/Rcpp.h:27,
+                 from geojson.cpp:1:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/shared_ptr.hpp:17:0,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_month.hpp:14,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_ymd.hpp:16,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_calendar.hpp:17,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/gregorian_types.hpp:19,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_config.hpp:18,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_system.hpp:13,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/ptime.hpp:12,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/local_time/local_time.hpp:11,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/format/format.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/colours/colours_hex.hpp:9,
+                 from ../inst/include/spatialwidget/spatialwidget.hpp:7,
+                 from geojson.cpp:2:
+/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/smart_ptr/shared_ptr.hpp: In member function ‘boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(std::auto_ptr<_Up>&&)’:
+/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/smart_ptr/shared_ptr.hpp:578:38: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+         this_type( static_cast< std::auto_ptr<Y> && >( r ) ).swap( *this );
+                                      ^~~~~~~~
+In file included from /usr/include/c++/7/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7/locale:43,
+                 from /usr/include/c++/7/iomanip:43,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/RcppCommon.h:52,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/Rcpp.h:27,
+                 from geojson.cpp:1:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/bind/mem_fn.hpp:25:0,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/mem_fn.hpp:22,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/function/detail/prologue.hpp:18,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/function.hpp:30,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/algorithm/string/detail/find_iterator.hpp:18,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/algorithm/string/find_iterator.hpp:24,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/algorithm/string/iter_find.hpp:27,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/algorithm/string/split.hpp:16,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/algorithm/string.hpp:23,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/tz_db_base.hpp:24,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/local_time/tz_database.hpp:14,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/local_time/local_time.hpp:19,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/format/format.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/colours/colours_hex.hpp:9,
+                 from ../inst/include/spatialwidget/spatialwidget.hpp:7,
+                 from geojson.cpp:2:
+/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/get_pointer.hpp: At global scope:
+/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/get_pointer.hpp:48:40: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+ template<class T> T * get_pointer(std::auto_ptr<T> const& p)
+                                        ^~~~~~~~
+In file included from /usr/include/c++/7/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7/locale:43,
+                 from /usr/include/c++/7/iomanip:43,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/RcppCommon.h:52,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/Rcpp.h:27,
+                 from geojson.cpp:1:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+ccache g++ -std=gnu++11 -I"/usr/share/R/include" -DNDEBUG -DSTRICT_R_HEADERS -I"/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/geojsonsf/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/jsonify/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/rapidjsonr/new/rapidjsonr/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include"  -I../inst/include -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-V28x5H/r-base-3.6.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c geometrycollection.cpp -o geometrycollection.o
+ccache g++ -std=gnu++11 -I"/usr/share/R/include" -DNDEBUG -DSTRICT_R_HEADERS -I"/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/geojsonsf/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/jsonify/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/rapidjsonr/new/rapidjsonr/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include"  -I../inst/include -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-V28x5H/r-base-3.6.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c palette.cpp -o palette.o
+In file included from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/colours.hpp:10:0,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/colours/colours_hex.hpp:5,
+                 from ../inst/include/spatialwidget/palette/palette.hpp:6,
+                 from palette.cpp:2:
+/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/math/interpolators/cubic_b_spline.hpp:28:81: note: #pragma message: This header is deprecated. Use <boost/math/interpolators/cardinal_cubic_b_spline.hpp> instead.
+ BOOST_HEADER_DEPRECATED("<boost/math/interpolators/cardinal_cubic_b_spline.hpp>");
+                                                                                 ^
+In file included from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/smart_ptr/shared_ptr.hpp:28:0,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/shared_ptr.hpp:17,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_month.hpp:14,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_ymd.hpp:16,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_calendar.hpp:17,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/gregorian_types.hpp:19,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_config.hpp:18,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_system.hpp:13,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/ptime.hpp:12,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/local_time/local_time.hpp:11,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/format/format.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/colours/colours_hex.hpp:9,
+                 from ../inst/include/spatialwidget/palette/palette.hpp:6,
+                 from palette.cpp:2:
+/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/smart_ptr/detail/shared_count.hpp:356:33: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+     explicit shared_count( std::auto_ptr<Y> & r ): pi_( new sp_counted_impl_p<Y>( r.get() ) )
+                                 ^~~~~~~~
+In file included from /usr/include/c++/7/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7/locale:43,
+                 from /usr/include/c++/7/iomanip:43,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/RcppCommon.h:52,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/Rcpp.h:27,
+                 from palette.cpp:1:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/shared_ptr.hpp:17:0,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_month.hpp:14,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_ymd.hpp:16,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_calendar.hpp:17,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/gregorian_types.hpp:19,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_config.hpp:18,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_system.hpp:13,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/ptime.hpp:12,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/local_time/local_time.hpp:11,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/format/format.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/colours/colours_hex.hpp:9,
+                 from ../inst/include/spatialwidget/palette/palette.hpp:6,
+                 from palette.cpp:2:
+/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/smart_ptr/shared_ptr.hpp:256:65: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+ template< class T, class R > struct sp_enable_if_auto_ptr< std::auto_ptr< T >, R >
+                                                                 ^~~~~~~~
+In file included from /usr/include/c++/7/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7/locale:43,
+                 from /usr/include/c++/7/iomanip:43,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/RcppCommon.h:52,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/Rcpp.h:27,
+                 from palette.cpp:1:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/shared_ptr.hpp:17:0,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_month.hpp:14,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_ymd.hpp:16,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_calendar.hpp:17,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/gregorian_types.hpp:19,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_config.hpp:18,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_system.hpp:13,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/ptime.hpp:12,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/local_time/local_time.hpp:11,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/format/format.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/colours/colours_hex.hpp:9,
+                 from ../inst/include/spatialwidget/palette/palette.hpp:6,
+                 from palette.cpp:2:
+/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/smart_ptr/shared_ptr.hpp:471:31: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+     explicit shared_ptr( std::auto_ptr<Y> & r ): px(r.get()), pn()
+                               ^~~~~~~~
+In file included from /usr/include/c++/7/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7/locale:43,
+                 from /usr/include/c++/7/iomanip:43,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/RcppCommon.h:52,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/Rcpp.h:27,
+                 from palette.cpp:1:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/shared_ptr.hpp:17:0,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_month.hpp:14,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_ymd.hpp:16,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_calendar.hpp:17,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/gregorian_types.hpp:19,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_config.hpp:18,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_system.hpp:13,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/ptime.hpp:12,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/local_time/local_time.hpp:11,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/format/format.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/colours/colours_hex.hpp:9,
+                 from ../inst/include/spatialwidget/palette/palette.hpp:6,
+                 from palette.cpp:2:
+/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/smart_ptr/shared_ptr.hpp:484:22: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+     shared_ptr( std::auto_ptr<Y> && r ): px(r.get()), pn()
+                      ^~~~~~~~
+In file included from /usr/include/c++/7/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7/locale:43,
+                 from /usr/include/c++/7/iomanip:43,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/RcppCommon.h:52,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/Rcpp.h:27,
+                 from palette.cpp:1:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/shared_ptr.hpp:17:0,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_month.hpp:14,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_ymd.hpp:16,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_calendar.hpp:17,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/gregorian_types.hpp:19,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_config.hpp:18,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_system.hpp:13,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/ptime.hpp:12,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/local_time/local_time.hpp:11,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/format/format.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/colours/colours_hex.hpp:9,
+                 from ../inst/include/spatialwidget/palette/palette.hpp:6,
+                 from palette.cpp:2:
+/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/smart_ptr/shared_ptr.hpp:567:34: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+     shared_ptr & operator=( std::auto_ptr<Y> & r )
+                                  ^~~~~~~~
+In file included from /usr/include/c++/7/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7/locale:43,
+                 from /usr/include/c++/7/iomanip:43,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/RcppCommon.h:52,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/Rcpp.h:27,
+                 from palette.cpp:1:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/shared_ptr.hpp:17:0,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_month.hpp:14,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_ymd.hpp:16,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_calendar.hpp:17,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/gregorian_types.hpp:19,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_config.hpp:18,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_system.hpp:13,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/ptime.hpp:12,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/local_time/local_time.hpp:11,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/format/format.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/colours/colours_hex.hpp:9,
+                 from ../inst/include/spatialwidget/palette/palette.hpp:6,
+                 from palette.cpp:2:
+/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/smart_ptr/shared_ptr.hpp:576:34: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+     shared_ptr & operator=( std::auto_ptr<Y> && r )
+                                  ^~~~~~~~
+In file included from /usr/include/c++/7/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7/locale:43,
+                 from /usr/include/c++/7/iomanip:43,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/RcppCommon.h:52,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/Rcpp.h:27,
+                 from palette.cpp:1:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/shared_ptr.hpp:17:0,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_month.hpp:14,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_ymd.hpp:16,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_calendar.hpp:17,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/gregorian_types.hpp:19,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_config.hpp:18,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_system.hpp:13,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/ptime.hpp:12,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/local_time/local_time.hpp:11,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/format/format.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/colours/colours_hex.hpp:9,
+                 from ../inst/include/spatialwidget/palette/palette.hpp:6,
+                 from palette.cpp:2:
+/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/smart_ptr/shared_ptr.hpp: In member function ‘boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(std::auto_ptr<_Up>&&)’:
+/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/smart_ptr/shared_ptr.hpp:578:38: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+         this_type( static_cast< std::auto_ptr<Y> && >( r ) ).swap( *this );
+                                      ^~~~~~~~
+In file included from /usr/include/c++/7/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7/locale:43,
+                 from /usr/include/c++/7/iomanip:43,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/RcppCommon.h:52,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/Rcpp.h:27,
+                 from palette.cpp:1:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/bind/mem_fn.hpp:25:0,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/mem_fn.hpp:22,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/function/detail/prologue.hpp:18,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/function.hpp:30,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/algorithm/string/detail/find_iterator.hpp:18,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/algorithm/string/find_iterator.hpp:24,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/algorithm/string/iter_find.hpp:27,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/algorithm/string/split.hpp:16,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/algorithm/string.hpp:23,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/tz_db_base.hpp:24,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/local_time/tz_database.hpp:14,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/local_time/local_time.hpp:19,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/format/format.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/colours/colours_hex.hpp:9,
+                 from ../inst/include/spatialwidget/palette/palette.hpp:6,
+                 from palette.cpp:2:
+/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/get_pointer.hpp: At global scope:
+/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/get_pointer.hpp:48:40: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+ template<class T> T * get_pointer(std::auto_ptr<T> const& p)
+                                        ^~~~~~~~
+In file included from /usr/include/c++/7/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7/locale:43,
+                 from /usr/include/c++/7/iomanip:43,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/RcppCommon.h:52,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/Rcpp.h:27,
+                 from palette.cpp:1:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+ccache g++ -std=gnu++11 -I"/usr/share/R/include" -DNDEBUG -DSTRICT_R_HEADERS -I"/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/geojsonsf/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/jsonify/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/rapidjsonr/new/rapidjsonr/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include"  -I../inst/include -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-V28x5H/r-base-3.6.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c spatialwidget_defaults.cpp -o spatialwidget_defaults.o
+ccache g++ -std=gnu++11 -I"/usr/share/R/include" -DNDEBUG -DSTRICT_R_HEADERS -I"/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/geojsonsf/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/jsonify/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/rapidjsonr/new/rapidjsonr/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include"  -I../inst/include -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-V28x5H/r-base-3.6.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c utils.cpp -o utils.o
+ccache g++ -std=gnu++11 -I"/usr/share/R/include" -DNDEBUG -DSTRICT_R_HEADERS -I"/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/geojsonsf/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/jsonify/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/rapidjsonr/new/rapidjsonr/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include"  -I../inst/include -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-V28x5H/r-base-3.6.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c widget_line.cpp -o widget_line.o
+In file included from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/colours.hpp:10:0,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/colours/colours_hex.hpp:5,
+                 from ../inst/include/spatialwidget/spatialwidget.hpp:7,
+                 from widget_line.cpp:2:
+/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/math/interpolators/cubic_b_spline.hpp:28:81: note: #pragma message: This header is deprecated. Use <boost/math/interpolators/cardinal_cubic_b_spline.hpp> instead.
+ BOOST_HEADER_DEPRECATED("<boost/math/interpolators/cardinal_cubic_b_spline.hpp>");
+                                                                                 ^
+In file included from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/smart_ptr/shared_ptr.hpp:28:0,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/shared_ptr.hpp:17,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_month.hpp:14,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_ymd.hpp:16,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_calendar.hpp:17,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/gregorian_types.hpp:19,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_config.hpp:18,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_system.hpp:13,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/ptime.hpp:12,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/local_time/local_time.hpp:11,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/format/format.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/colours/colours_hex.hpp:9,
+                 from ../inst/include/spatialwidget/spatialwidget.hpp:7,
+                 from widget_line.cpp:2:
+/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/smart_ptr/detail/shared_count.hpp:356:33: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+     explicit shared_count( std::auto_ptr<Y> & r ): pi_( new sp_counted_impl_p<Y>( r.get() ) )
+                                 ^~~~~~~~
+In file included from /usr/include/c++/7/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7/locale:43,
+                 from /usr/include/c++/7/iomanip:43,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/RcppCommon.h:52,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/Rcpp.h:27,
+                 from widget_line.cpp:1:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/shared_ptr.hpp:17:0,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_month.hpp:14,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_ymd.hpp:16,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_calendar.hpp:17,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/gregorian_types.hpp:19,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_config.hpp:18,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_system.hpp:13,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/ptime.hpp:12,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/local_time/local_time.hpp:11,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/format/format.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/colours/colours_hex.hpp:9,
+                 from ../inst/include/spatialwidget/spatialwidget.hpp:7,
+                 from widget_line.cpp:2:
+/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/smart_ptr/shared_ptr.hpp:256:65: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+ template< class T, class R > struct sp_enable_if_auto_ptr< std::auto_ptr< T >, R >
+                                                                 ^~~~~~~~
+In file included from /usr/include/c++/7/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7/locale:43,
+                 from /usr/include/c++/7/iomanip:43,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/RcppCommon.h:52,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/Rcpp.h:27,
+                 from widget_line.cpp:1:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/shared_ptr.hpp:17:0,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_month.hpp:14,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_ymd.hpp:16,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_calendar.hpp:17,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/gregorian_types.hpp:19,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_config.hpp:18,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_system.hpp:13,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/ptime.hpp:12,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/local_time/local_time.hpp:11,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/format/format.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/colours/colours_hex.hpp:9,
+                 from ../inst/include/spatialwidget/spatialwidget.hpp:7,
+                 from widget_line.cpp:2:
+/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/smart_ptr/shared_ptr.hpp:471:31: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+     explicit shared_ptr( std::auto_ptr<Y> & r ): px(r.get()), pn()
+                               ^~~~~~~~
+In file included from /usr/include/c++/7/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7/locale:43,
+                 from /usr/include/c++/7/iomanip:43,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/RcppCommon.h:52,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/Rcpp.h:27,
+                 from widget_line.cpp:1:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/shared_ptr.hpp:17:0,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_month.hpp:14,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_ymd.hpp:16,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_calendar.hpp:17,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/gregorian_types.hpp:19,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_config.hpp:18,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_system.hpp:13,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/ptime.hpp:12,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/local_time/local_time.hpp:11,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/format/format.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/colours/colours_hex.hpp:9,
+                 from ../inst/include/spatialwidget/spatialwidget.hpp:7,
+                 from widget_line.cpp:2:
+/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/smart_ptr/shared_ptr.hpp:484:22: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+     shared_ptr( std::auto_ptr<Y> && r ): px(r.get()), pn()
+                      ^~~~~~~~
+In file included from /usr/include/c++/7/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7/locale:43,
+                 from /usr/include/c++/7/iomanip:43,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/RcppCommon.h:52,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/Rcpp.h:27,
+                 from widget_line.cpp:1:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/shared_ptr.hpp:17:0,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_month.hpp:14,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_ymd.hpp:16,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_calendar.hpp:17,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/gregorian_types.hpp:19,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_config.hpp:18,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_system.hpp:13,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/ptime.hpp:12,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/local_time/local_time.hpp:11,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/format/format.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/colours/colours_hex.hpp:9,
+                 from ../inst/include/spatialwidget/spatialwidget.hpp:7,
+                 from widget_line.cpp:2:
+/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/smart_ptr/shared_ptr.hpp:567:34: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+     shared_ptr & operator=( std::auto_ptr<Y> & r )
+                                  ^~~~~~~~
+In file included from /usr/include/c++/7/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7/locale:43,
+                 from /usr/include/c++/7/iomanip:43,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/RcppCommon.h:52,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/Rcpp.h:27,
+                 from widget_line.cpp:1:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/shared_ptr.hpp:17:0,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_month.hpp:14,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_ymd.hpp:16,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_calendar.hpp:17,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/gregorian_types.hpp:19,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_config.hpp:18,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_system.hpp:13,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/ptime.hpp:12,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/local_time/local_time.hpp:11,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/format/format.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/colours/colours_hex.hpp:9,
+                 from ../inst/include/spatialwidget/spatialwidget.hpp:7,
+                 from widget_line.cpp:2:
+/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/smart_ptr/shared_ptr.hpp:576:34: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+     shared_ptr & operator=( std::auto_ptr<Y> && r )
+                                  ^~~~~~~~
+In file included from /usr/include/c++/7/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7/locale:43,
+                 from /usr/include/c++/7/iomanip:43,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/RcppCommon.h:52,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/Rcpp.h:27,
+                 from widget_line.cpp:1:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/shared_ptr.hpp:17:0,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_month.hpp:14,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_ymd.hpp:16,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_calendar.hpp:17,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/gregorian_types.hpp:19,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_config.hpp:18,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_system.hpp:13,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/ptime.hpp:12,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/local_time/local_time.hpp:11,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/format/format.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/colours/colours_hex.hpp:9,
+                 from ../inst/include/spatialwidget/spatialwidget.hpp:7,
+                 from widget_line.cpp:2:
+/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/smart_ptr/shared_ptr.hpp: In member function ‘boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(std::auto_ptr<_Up>&&)’:
+/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/smart_ptr/shared_ptr.hpp:578:38: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+         this_type( static_cast< std::auto_ptr<Y> && >( r ) ).swap( *this );
+                                      ^~~~~~~~
+In file included from /usr/include/c++/7/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7/locale:43,
+                 from /usr/include/c++/7/iomanip:43,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/RcppCommon.h:52,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/Rcpp.h:27,
+                 from widget_line.cpp:1:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/bind/mem_fn.hpp:25:0,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/mem_fn.hpp:22,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/function/detail/prologue.hpp:18,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/function.hpp:30,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/algorithm/string/detail/find_iterator.hpp:18,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/algorithm/string/find_iterator.hpp:24,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/algorithm/string/iter_find.hpp:27,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/algorithm/string/split.hpp:16,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/algorithm/string.hpp:23,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/tz_db_base.hpp:24,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/local_time/tz_database.hpp:14,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/local_time/local_time.hpp:19,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/format/format.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/colours/colours_hex.hpp:9,
+                 from ../inst/include/spatialwidget/spatialwidget.hpp:7,
+                 from widget_line.cpp:2:
+/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/get_pointer.hpp: At global scope:
+/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/get_pointer.hpp:48:40: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+ template<class T> T * get_pointer(std::auto_ptr<T> const& p)
+                                        ^~~~~~~~
+In file included from /usr/include/c++/7/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7/locale:43,
+                 from /usr/include/c++/7/iomanip:43,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/RcppCommon.h:52,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/Rcpp.h:27,
+                 from widget_line.cpp:1:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+ccache g++ -std=gnu++11 -I"/usr/share/R/include" -DNDEBUG -DSTRICT_R_HEADERS -I"/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/geojsonsf/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/jsonify/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/rapidjsonr/new/rapidjsonr/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include"  -I../inst/include -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-V28x5H/r-base-3.6.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c widget_point.cpp -o widget_point.o
+In file included from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/colours.hpp:10:0,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/colours/colours_hex.hpp:5,
+                 from ../inst/include/spatialwidget/spatialwidget.hpp:7,
+                 from widget_point.cpp:2:
+/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/math/interpolators/cubic_b_spline.hpp:28:81: note: #pragma message: This header is deprecated. Use <boost/math/interpolators/cardinal_cubic_b_spline.hpp> instead.
+ BOOST_HEADER_DEPRECATED("<boost/math/interpolators/cardinal_cubic_b_spline.hpp>");
+                                                                                 ^
+In file included from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/smart_ptr/shared_ptr.hpp:28:0,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/shared_ptr.hpp:17,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_month.hpp:14,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_ymd.hpp:16,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_calendar.hpp:17,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/gregorian_types.hpp:19,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_config.hpp:18,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_system.hpp:13,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/ptime.hpp:12,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/local_time/local_time.hpp:11,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/format/format.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/colours/colours_hex.hpp:9,
+                 from ../inst/include/spatialwidget/spatialwidget.hpp:7,
+                 from widget_point.cpp:2:
+/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/smart_ptr/detail/shared_count.hpp:356:33: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+     explicit shared_count( std::auto_ptr<Y> & r ): pi_( new sp_counted_impl_p<Y>( r.get() ) )
+                                 ^~~~~~~~
+In file included from /usr/include/c++/7/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7/locale:43,
+                 from /usr/include/c++/7/iomanip:43,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/RcppCommon.h:52,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/Rcpp.h:27,
+                 from widget_point.cpp:1:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/shared_ptr.hpp:17:0,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_month.hpp:14,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_ymd.hpp:16,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_calendar.hpp:17,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/gregorian_types.hpp:19,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_config.hpp:18,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_system.hpp:13,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/ptime.hpp:12,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/local_time/local_time.hpp:11,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/format/format.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/colours/colours_hex.hpp:9,
+                 from ../inst/include/spatialwidget/spatialwidget.hpp:7,
+                 from widget_point.cpp:2:
+/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/smart_ptr/shared_ptr.hpp:256:65: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+ template< class T, class R > struct sp_enable_if_auto_ptr< std::auto_ptr< T >, R >
+                                                                 ^~~~~~~~
+In file included from /usr/include/c++/7/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7/locale:43,
+                 from /usr/include/c++/7/iomanip:43,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/RcppCommon.h:52,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/Rcpp.h:27,
+                 from widget_point.cpp:1:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/shared_ptr.hpp:17:0,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_month.hpp:14,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_ymd.hpp:16,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_calendar.hpp:17,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/gregorian_types.hpp:19,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_config.hpp:18,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_system.hpp:13,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/ptime.hpp:12,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/local_time/local_time.hpp:11,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/format/format.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/colours/colours_hex.hpp:9,
+                 from ../inst/include/spatialwidget/spatialwidget.hpp:7,
+                 from widget_point.cpp:2:
+/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/smart_ptr/shared_ptr.hpp:471:31: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+     explicit shared_ptr( std::auto_ptr<Y> & r ): px(r.get()), pn()
+                               ^~~~~~~~
+In file included from /usr/include/c++/7/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7/locale:43,
+                 from /usr/include/c++/7/iomanip:43,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/RcppCommon.h:52,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/Rcpp.h:27,
+                 from widget_point.cpp:1:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/shared_ptr.hpp:17:0,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_month.hpp:14,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_ymd.hpp:16,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_calendar.hpp:17,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/gregorian_types.hpp:19,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_config.hpp:18,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_system.hpp:13,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/ptime.hpp:12,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/local_time/local_time.hpp:11,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/format/format.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/colours/colours_hex.hpp:9,
+                 from ../inst/include/spatialwidget/spatialwidget.hpp:7,
+                 from widget_point.cpp:2:
+/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/smart_ptr/shared_ptr.hpp:484:22: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+     shared_ptr( std::auto_ptr<Y> && r ): px(r.get()), pn()
+                      ^~~~~~~~
+In file included from /usr/include/c++/7/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7/locale:43,
+                 from /usr/include/c++/7/iomanip:43,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/RcppCommon.h:52,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/Rcpp.h:27,
+                 from widget_point.cpp:1:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/shared_ptr.hpp:17:0,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_month.hpp:14,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_ymd.hpp:16,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_calendar.hpp:17,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/gregorian_types.hpp:19,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_config.hpp:18,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_system.hpp:13,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/ptime.hpp:12,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/local_time/local_time.hpp:11,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/format/format.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/colours/colours_hex.hpp:9,
+                 from ../inst/include/spatialwidget/spatialwidget.hpp:7,
+                 from widget_point.cpp:2:
+/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/smart_ptr/shared_ptr.hpp:567:34: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+     shared_ptr & operator=( std::auto_ptr<Y> & r )
+                                  ^~~~~~~~
+In file included from /usr/include/c++/7/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7/locale:43,
+                 from /usr/include/c++/7/iomanip:43,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/RcppCommon.h:52,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/Rcpp.h:27,
+                 from widget_point.cpp:1:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/shared_ptr.hpp:17:0,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_month.hpp:14,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_ymd.hpp:16,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_calendar.hpp:17,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/gregorian_types.hpp:19,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_config.hpp:18,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_system.hpp:13,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/ptime.hpp:12,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/local_time/local_time.hpp:11,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/format/format.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/colours/colours_hex.hpp:9,
+                 from ../inst/include/spatialwidget/spatialwidget.hpp:7,
+                 from widget_point.cpp:2:
+/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/smart_ptr/shared_ptr.hpp:576:34: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+     shared_ptr & operator=( std::auto_ptr<Y> && r )
+                                  ^~~~~~~~
+In file included from /usr/include/c++/7/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7/locale:43,
+                 from /usr/include/c++/7/iomanip:43,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/RcppCommon.h:52,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/Rcpp.h:27,
+                 from widget_point.cpp:1:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/shared_ptr.hpp:17:0,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_month.hpp:14,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_ymd.hpp:16,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_calendar.hpp:17,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/gregorian_types.hpp:19,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_config.hpp:18,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_system.hpp:13,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/ptime.hpp:12,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/local_time/local_time.hpp:11,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/format/format.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/colours/colours_hex.hpp:9,
+                 from ../inst/include/spatialwidget/spatialwidget.hpp:7,
+                 from widget_point.cpp:2:
+/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/smart_ptr/shared_ptr.hpp: In member function ‘boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(std::auto_ptr<_Up>&&)’:
+/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/smart_ptr/shared_ptr.hpp:578:38: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+         this_type( static_cast< std::auto_ptr<Y> && >( r ) ).swap( *this );
+                                      ^~~~~~~~
+In file included from /usr/include/c++/7/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7/locale:43,
+                 from /usr/include/c++/7/iomanip:43,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/RcppCommon.h:52,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/Rcpp.h:27,
+                 from widget_point.cpp:1:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/bind/mem_fn.hpp:25:0,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/mem_fn.hpp:22,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/function/detail/prologue.hpp:18,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/function.hpp:30,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/algorithm/string/detail/find_iterator.hpp:18,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/algorithm/string/find_iterator.hpp:24,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/algorithm/string/iter_find.hpp:27,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/algorithm/string/split.hpp:16,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/algorithm/string.hpp:23,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/tz_db_base.hpp:24,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/local_time/tz_database.hpp:14,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/local_time/local_time.hpp:19,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/format/format.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/colours/colours_hex.hpp:9,
+                 from ../inst/include/spatialwidget/spatialwidget.hpp:7,
+                 from widget_point.cpp:2:
+/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/get_pointer.hpp: At global scope:
+/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/get_pointer.hpp:48:40: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+ template<class T> T * get_pointer(std::auto_ptr<T> const& p)
+                                        ^~~~~~~~
+In file included from /usr/include/c++/7/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7/locale:43,
+                 from /usr/include/c++/7/iomanip:43,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/RcppCommon.h:52,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/Rcpp.h:27,
+                 from widget_point.cpp:1:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+ccache g++ -std=gnu++11 -I"/usr/share/R/include" -DNDEBUG -DSTRICT_R_HEADERS -I"/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/geojsonsf/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/jsonify/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/rapidjsonr/new/rapidjsonr/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include"  -I../inst/include -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-V28x5H/r-base-3.6.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c widget_polygon.cpp -o widget_polygon.o
+In file included from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/colours.hpp:10:0,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/colours/colours_hex.hpp:5,
+                 from ../inst/include/spatialwidget/spatialwidget.hpp:7,
+                 from widget_polygon.cpp:2:
+/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/math/interpolators/cubic_b_spline.hpp:28:81: note: #pragma message: This header is deprecated. Use <boost/math/interpolators/cardinal_cubic_b_spline.hpp> instead.
+ BOOST_HEADER_DEPRECATED("<boost/math/interpolators/cardinal_cubic_b_spline.hpp>");
+                                                                                 ^
+In file included from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/smart_ptr/shared_ptr.hpp:28:0,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/shared_ptr.hpp:17,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_month.hpp:14,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_ymd.hpp:16,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_calendar.hpp:17,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/gregorian_types.hpp:19,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_config.hpp:18,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_system.hpp:13,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/ptime.hpp:12,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/local_time/local_time.hpp:11,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/format/format.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/colours/colours_hex.hpp:9,
+                 from ../inst/include/spatialwidget/spatialwidget.hpp:7,
+                 from widget_polygon.cpp:2:
+/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/smart_ptr/detail/shared_count.hpp:356:33: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+     explicit shared_count( std::auto_ptr<Y> & r ): pi_( new sp_counted_impl_p<Y>( r.get() ) )
+                                 ^~~~~~~~
+In file included from /usr/include/c++/7/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7/locale:43,
+                 from /usr/include/c++/7/iomanip:43,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/RcppCommon.h:52,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/Rcpp.h:27,
+                 from widget_polygon.cpp:1:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/shared_ptr.hpp:17:0,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_month.hpp:14,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_ymd.hpp:16,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_calendar.hpp:17,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/gregorian_types.hpp:19,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_config.hpp:18,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_system.hpp:13,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/ptime.hpp:12,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/local_time/local_time.hpp:11,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/format/format.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/colours/colours_hex.hpp:9,
+                 from ../inst/include/spatialwidget/spatialwidget.hpp:7,
+                 from widget_polygon.cpp:2:
+/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/smart_ptr/shared_ptr.hpp:256:65: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+ template< class T, class R > struct sp_enable_if_auto_ptr< std::auto_ptr< T >, R >
+                                                                 ^~~~~~~~
+In file included from /usr/include/c++/7/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7/locale:43,
+                 from /usr/include/c++/7/iomanip:43,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/RcppCommon.h:52,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/Rcpp.h:27,
+                 from widget_polygon.cpp:1:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/shared_ptr.hpp:17:0,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_month.hpp:14,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_ymd.hpp:16,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_calendar.hpp:17,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/gregorian_types.hpp:19,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_config.hpp:18,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_system.hpp:13,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/ptime.hpp:12,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/local_time/local_time.hpp:11,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/format/format.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/colours/colours_hex.hpp:9,
+                 from ../inst/include/spatialwidget/spatialwidget.hpp:7,
+                 from widget_polygon.cpp:2:
+/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/smart_ptr/shared_ptr.hpp:471:31: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+     explicit shared_ptr( std::auto_ptr<Y> & r ): px(r.get()), pn()
+                               ^~~~~~~~
+In file included from /usr/include/c++/7/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7/locale:43,
+                 from /usr/include/c++/7/iomanip:43,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/RcppCommon.h:52,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/Rcpp.h:27,
+                 from widget_polygon.cpp:1:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/shared_ptr.hpp:17:0,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_month.hpp:14,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_ymd.hpp:16,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_calendar.hpp:17,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/gregorian_types.hpp:19,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_config.hpp:18,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_system.hpp:13,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/ptime.hpp:12,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/local_time/local_time.hpp:11,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/format/format.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/colours/colours_hex.hpp:9,
+                 from ../inst/include/spatialwidget/spatialwidget.hpp:7,
+                 from widget_polygon.cpp:2:
+/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/smart_ptr/shared_ptr.hpp:484:22: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+     shared_ptr( std::auto_ptr<Y> && r ): px(r.get()), pn()
+                      ^~~~~~~~
+In file included from /usr/include/c++/7/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7/locale:43,
+                 from /usr/include/c++/7/iomanip:43,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/RcppCommon.h:52,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/Rcpp.h:27,
+                 from widget_polygon.cpp:1:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/shared_ptr.hpp:17:0,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_month.hpp:14,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_ymd.hpp:16,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_calendar.hpp:17,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/gregorian_types.hpp:19,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_config.hpp:18,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_system.hpp:13,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/ptime.hpp:12,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/local_time/local_time.hpp:11,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/format/format.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/colours/colours_hex.hpp:9,
+                 from ../inst/include/spatialwidget/spatialwidget.hpp:7,
+                 from widget_polygon.cpp:2:
+/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/smart_ptr/shared_ptr.hpp:567:34: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+     shared_ptr & operator=( std::auto_ptr<Y> & r )
+                                  ^~~~~~~~
+In file included from /usr/include/c++/7/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7/locale:43,
+                 from /usr/include/c++/7/iomanip:43,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/RcppCommon.h:52,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/Rcpp.h:27,
+                 from widget_polygon.cpp:1:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/shared_ptr.hpp:17:0,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_month.hpp:14,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_ymd.hpp:16,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_calendar.hpp:17,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/gregorian_types.hpp:19,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_config.hpp:18,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_system.hpp:13,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/ptime.hpp:12,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/local_time/local_time.hpp:11,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/format/format.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/colours/colours_hex.hpp:9,
+                 from ../inst/include/spatialwidget/spatialwidget.hpp:7,
+                 from widget_polygon.cpp:2:
+/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/smart_ptr/shared_ptr.hpp:576:34: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+     shared_ptr & operator=( std::auto_ptr<Y> && r )
+                                  ^~~~~~~~
+In file included from /usr/include/c++/7/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7/locale:43,
+                 from /usr/include/c++/7/iomanip:43,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/RcppCommon.h:52,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/Rcpp.h:27,
+                 from widget_polygon.cpp:1:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/shared_ptr.hpp:17:0,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_month.hpp:14,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_ymd.hpp:16,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/greg_calendar.hpp:17,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/gregorian/gregorian_types.hpp:19,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_config.hpp:18,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time_system.hpp:13,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/ptime.hpp:12,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/posix_time/posix_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/local_time/local_time.hpp:11,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/format/format.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/colours/colours_hex.hpp:9,
+                 from ../inst/include/spatialwidget/spatialwidget.hpp:7,
+                 from widget_polygon.cpp:2:
+/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/smart_ptr/shared_ptr.hpp: In member function ‘boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(std::auto_ptr<_Up>&&)’:
+/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/smart_ptr/shared_ptr.hpp:578:38: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+         this_type( static_cast< std::auto_ptr<Y> && >( r ) ).swap( *this );
+                                      ^~~~~~~~
+In file included from /usr/include/c++/7/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7/locale:43,
+                 from /usr/include/c++/7/iomanip:43,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/RcppCommon.h:52,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/Rcpp.h:27,
+                 from widget_polygon.cpp:1:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/bind/mem_fn.hpp:25:0,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/mem_fn.hpp:22,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/function/detail/prologue.hpp:18,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/function.hpp:30,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/algorithm/string/detail/find_iterator.hpp:18,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/algorithm/string/find_iterator.hpp:24,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/algorithm/string/iter_find.hpp:27,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/algorithm/string/split.hpp:16,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/algorithm/string.hpp:23,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/tz_db_base.hpp:24,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/local_time/tz_database.hpp:14,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time/local_time/local_time.hpp:19,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/date_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/format/format.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/colourvalues/include/colourvalues/colours/colours_hex.hpp:9,
+                 from ../inst/include/spatialwidget/spatialwidget.hpp:7,
+                 from widget_polygon.cpp:2:
+/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/get_pointer.hpp: At global scope:
+/home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/BH/include/boost/get_pointer.hpp:48:40: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+ template<class T> T * get_pointer(std::auto_ptr<T> const& p)
+                                        ^~~~~~~~
+In file included from /usr/include/c++/7/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7/locale:43,
+                 from /usr/include/c++/7/iomanip:43,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/RcppCommon.h:52,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/spatialwidget/Rcpp/include/Rcpp.h:27,
+                 from widget_polygon.cpp:1:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+ccache g++ -std=gnu++11 -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o spatialwidget.so RcppExports.o data_construction.o geojson.o geometrycollection.o palette.o spatialwidget_defaults.o utils.o widget_line.o widget_point.o widget_polygon.o -L/usr/lib/R/lib -lR
+installing to /home/dave/Documents/github/rapidjsonr/revdep/checks/spatialwidget/new/spatialwidget.Rcheck/00LOCK-spatialwidget/00new/spatialwidget/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (spatialwidget)

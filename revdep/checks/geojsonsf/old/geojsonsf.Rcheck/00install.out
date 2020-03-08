@@ -1,0 +1,502 @@
+* installing *source* package ‘geojsonsf’ ...
+** package ‘geojsonsf’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+ccache g++ -std=gnu++11 -I"/usr/share/R/include" -DNDEBUG -DSTRICT_R_HEADERS -I"/home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/rapidjsonr/old/rapidjsonr/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/Rcpp/include"  -I../inst/include/ -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-V28x5H/r-base-3.6.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+ccache g++ -std=gnu++11 -I"/usr/share/R/include" -DNDEBUG -DSTRICT_R_HEADERS -I"/home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/rapidjsonr/old/rapidjsonr/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/Rcpp/include"  -I../inst/include/ -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-V28x5H/r-base-3.6.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c df_geojson.cpp -o df_geojson.o
+In file included from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/smart_ptr/shared_ptr.hpp:28:0,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/shared_ptr.hpp:17,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/gregorian/greg_month.hpp:14,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/gregorian/greg_ymd.hpp:16,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/gregorian/greg_calendar.hpp:17,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/gregorian/gregorian_types.hpp:19,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/posix_time/posix_time_config.hpp:18,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/posix_time/posix_time_system.hpp:13,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/posix_time/ptime.hpp:12,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/posix_time/posix_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/local_time/local_time.hpp:11,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/to_json/dates/dates.hpp:5,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/to_json/writers/complex.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/to_json/api.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/jsonify.hpp:11,
+                 from ../inst/include/geojsonsf/geojson/api/df_api.hpp:4,
+                 from df_geojson.cpp:3:
+/home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/smart_ptr/detail/shared_count.hpp:356:33: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+     explicit shared_count( std::auto_ptr<Y> & r ): pi_( new sp_counted_impl_p<Y>( r.get() ) )
+                                 ^~~~~~~~
+In file included from /usr/include/c++/7/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7/locale:43,
+                 from /usr/include/c++/7/iomanip:43,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/Rcpp/include/RcppCommon.h:52,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/Rcpp/include/Rcpp.h:27,
+                 from df_geojson.cpp:2:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/shared_ptr.hpp:17:0,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/gregorian/greg_month.hpp:14,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/gregorian/greg_ymd.hpp:16,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/gregorian/greg_calendar.hpp:17,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/gregorian/gregorian_types.hpp:19,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/posix_time/posix_time_config.hpp:18,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/posix_time/posix_time_system.hpp:13,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/posix_time/ptime.hpp:12,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/posix_time/posix_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/local_time/local_time.hpp:11,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/to_json/dates/dates.hpp:5,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/to_json/writers/complex.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/to_json/api.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/jsonify.hpp:11,
+                 from ../inst/include/geojsonsf/geojson/api/df_api.hpp:4,
+                 from df_geojson.cpp:3:
+/home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/smart_ptr/shared_ptr.hpp:256:65: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+ template< class T, class R > struct sp_enable_if_auto_ptr< std::auto_ptr< T >, R >
+                                                                 ^~~~~~~~
+In file included from /usr/include/c++/7/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7/locale:43,
+                 from /usr/include/c++/7/iomanip:43,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/Rcpp/include/RcppCommon.h:52,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/Rcpp/include/Rcpp.h:27,
+                 from df_geojson.cpp:2:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/shared_ptr.hpp:17:0,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/gregorian/greg_month.hpp:14,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/gregorian/greg_ymd.hpp:16,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/gregorian/greg_calendar.hpp:17,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/gregorian/gregorian_types.hpp:19,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/posix_time/posix_time_config.hpp:18,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/posix_time/posix_time_system.hpp:13,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/posix_time/ptime.hpp:12,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/posix_time/posix_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/local_time/local_time.hpp:11,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/to_json/dates/dates.hpp:5,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/to_json/writers/complex.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/to_json/api.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/jsonify.hpp:11,
+                 from ../inst/include/geojsonsf/geojson/api/df_api.hpp:4,
+                 from df_geojson.cpp:3:
+/home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/smart_ptr/shared_ptr.hpp:471:31: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+     explicit shared_ptr( std::auto_ptr<Y> & r ): px(r.get()), pn()
+                               ^~~~~~~~
+In file included from /usr/include/c++/7/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7/locale:43,
+                 from /usr/include/c++/7/iomanip:43,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/Rcpp/include/RcppCommon.h:52,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/Rcpp/include/Rcpp.h:27,
+                 from df_geojson.cpp:2:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/shared_ptr.hpp:17:0,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/gregorian/greg_month.hpp:14,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/gregorian/greg_ymd.hpp:16,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/gregorian/greg_calendar.hpp:17,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/gregorian/gregorian_types.hpp:19,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/posix_time/posix_time_config.hpp:18,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/posix_time/posix_time_system.hpp:13,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/posix_time/ptime.hpp:12,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/posix_time/posix_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/local_time/local_time.hpp:11,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/to_json/dates/dates.hpp:5,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/to_json/writers/complex.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/to_json/api.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/jsonify.hpp:11,
+                 from ../inst/include/geojsonsf/geojson/api/df_api.hpp:4,
+                 from df_geojson.cpp:3:
+/home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/smart_ptr/shared_ptr.hpp:484:22: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+     shared_ptr( std::auto_ptr<Y> && r ): px(r.get()), pn()
+                      ^~~~~~~~
+In file included from /usr/include/c++/7/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7/locale:43,
+                 from /usr/include/c++/7/iomanip:43,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/Rcpp/include/RcppCommon.h:52,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/Rcpp/include/Rcpp.h:27,
+                 from df_geojson.cpp:2:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/shared_ptr.hpp:17:0,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/gregorian/greg_month.hpp:14,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/gregorian/greg_ymd.hpp:16,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/gregorian/greg_calendar.hpp:17,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/gregorian/gregorian_types.hpp:19,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/posix_time/posix_time_config.hpp:18,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/posix_time/posix_time_system.hpp:13,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/posix_time/ptime.hpp:12,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/posix_time/posix_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/local_time/local_time.hpp:11,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/to_json/dates/dates.hpp:5,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/to_json/writers/complex.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/to_json/api.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/jsonify.hpp:11,
+                 from ../inst/include/geojsonsf/geojson/api/df_api.hpp:4,
+                 from df_geojson.cpp:3:
+/home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/smart_ptr/shared_ptr.hpp:567:34: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+     shared_ptr & operator=( std::auto_ptr<Y> & r )
+                                  ^~~~~~~~
+In file included from /usr/include/c++/7/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7/locale:43,
+                 from /usr/include/c++/7/iomanip:43,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/Rcpp/include/RcppCommon.h:52,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/Rcpp/include/Rcpp.h:27,
+                 from df_geojson.cpp:2:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/shared_ptr.hpp:17:0,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/gregorian/greg_month.hpp:14,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/gregorian/greg_ymd.hpp:16,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/gregorian/greg_calendar.hpp:17,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/gregorian/gregorian_types.hpp:19,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/posix_time/posix_time_config.hpp:18,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/posix_time/posix_time_system.hpp:13,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/posix_time/ptime.hpp:12,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/posix_time/posix_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/local_time/local_time.hpp:11,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/to_json/dates/dates.hpp:5,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/to_json/writers/complex.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/to_json/api.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/jsonify.hpp:11,
+                 from ../inst/include/geojsonsf/geojson/api/df_api.hpp:4,
+                 from df_geojson.cpp:3:
+/home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/smart_ptr/shared_ptr.hpp:576:34: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+     shared_ptr & operator=( std::auto_ptr<Y> && r )
+                                  ^~~~~~~~
+In file included from /usr/include/c++/7/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7/locale:43,
+                 from /usr/include/c++/7/iomanip:43,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/Rcpp/include/RcppCommon.h:52,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/Rcpp/include/Rcpp.h:27,
+                 from df_geojson.cpp:2:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/shared_ptr.hpp:17:0,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/gregorian/greg_month.hpp:14,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/gregorian/greg_ymd.hpp:16,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/gregorian/greg_calendar.hpp:17,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/gregorian/gregorian_types.hpp:19,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/posix_time/posix_time_config.hpp:18,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/posix_time/posix_time_system.hpp:13,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/posix_time/ptime.hpp:12,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/posix_time/posix_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/local_time/local_time.hpp:11,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/to_json/dates/dates.hpp:5,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/to_json/writers/complex.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/to_json/api.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/jsonify.hpp:11,
+                 from ../inst/include/geojsonsf/geojson/api/df_api.hpp:4,
+                 from df_geojson.cpp:3:
+/home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/smart_ptr/shared_ptr.hpp: In member function ‘boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(std::auto_ptr<_Up>&&)’:
+/home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/smart_ptr/shared_ptr.hpp:578:38: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+         this_type( static_cast< std::auto_ptr<Y> && >( r ) ).swap( *this );
+                                      ^~~~~~~~
+In file included from /usr/include/c++/7/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7/locale:43,
+                 from /usr/include/c++/7/iomanip:43,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/Rcpp/include/RcppCommon.h:52,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/Rcpp/include/Rcpp.h:27,
+                 from df_geojson.cpp:2:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/bind/mem_fn.hpp:25:0,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/mem_fn.hpp:22,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/function/detail/prologue.hpp:18,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/function.hpp:30,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/algorithm/string/detail/find_iterator.hpp:18,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/algorithm/string/find_iterator.hpp:24,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/algorithm/string/iter_find.hpp:27,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/algorithm/string/split.hpp:16,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/algorithm/string.hpp:23,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/tz_db_base.hpp:24,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/local_time/tz_database.hpp:14,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/local_time/local_time.hpp:19,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/to_json/dates/dates.hpp:5,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/to_json/writers/complex.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/to_json/api.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/jsonify.hpp:11,
+                 from ../inst/include/geojsonsf/geojson/api/df_api.hpp:4,
+                 from df_geojson.cpp:3:
+/home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/get_pointer.hpp: At global scope:
+/home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/get_pointer.hpp:48:40: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+ template<class T> T * get_pointer(std::auto_ptr<T> const& p)
+                                        ^~~~~~~~
+In file included from /usr/include/c++/7/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7/locale:43,
+                 from /usr/include/c++/7/iomanip:43,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/Rcpp/include/RcppCommon.h:52,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/Rcpp/include/Rcpp.h:27,
+                 from df_geojson.cpp:2:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+ccache g++ -std=gnu++11 -I"/usr/share/R/include" -DNDEBUG -DSTRICT_R_HEADERS -I"/home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/rapidjsonr/old/rapidjsonr/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/Rcpp/include"  -I../inst/include/ -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-V28x5H/r-base-3.6.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c geojson_to_sf.cpp -o geojson_to_sf.o
+ccache g++ -std=gnu++11 -I"/usr/share/R/include" -DNDEBUG -DSTRICT_R_HEADERS -I"/home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/rapidjsonr/old/rapidjsonr/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/Rcpp/include"  -I../inst/include/ -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-V28x5H/r-base-3.6.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c geojson_to_wkt.cpp -o geojson_to_wkt.o
+ccache g++ -std=gnu++11 -I"/usr/share/R/include" -DNDEBUG -DSTRICT_R_HEADERS -I"/home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/rapidjsonr/old/rapidjsonr/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/Rcpp/include"  -I../inst/include/ -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-V28x5H/r-base-3.6.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c geojson_wkt.cpp -o geojson_wkt.o
+ccache g++ -std=gnu++11 -I"/usr/share/R/include" -DNDEBUG -DSTRICT_R_HEADERS -I"/home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/rapidjsonr/old/rapidjsonr/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/Rcpp/include"  -I../inst/include/ -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-V28x5H/r-base-3.6.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c read_geojson.cpp -o read_geojson.o
+ccache g++ -std=gnu++11 -I"/usr/share/R/include" -DNDEBUG -DSTRICT_R_HEADERS -I"/home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/rapidjsonr/old/rapidjsonr/include" -I"/home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/Rcpp/include"  -I../inst/include/ -fpic  -g -O2 -fdebug-prefix-map=/build/r-base-V28x5H/r-base-3.6.3=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sf_geojson.cpp -o sf_geojson.o
+In file included from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/smart_ptr/shared_ptr.hpp:28:0,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/shared_ptr.hpp:17,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/gregorian/greg_month.hpp:14,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/gregorian/greg_ymd.hpp:16,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/gregorian/greg_calendar.hpp:17,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/gregorian/gregorian_types.hpp:19,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/posix_time/posix_time_config.hpp:18,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/posix_time/posix_time_system.hpp:13,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/posix_time/ptime.hpp:12,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/posix_time/posix_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/local_time/local_time.hpp:11,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/to_json/dates/dates.hpp:5,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/to_json/writers/complex.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/to_json/api.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/jsonify.hpp:11,
+                 from ../inst/include/geojsonsf/geojson/api/sf_api.hpp:4,
+                 from sf_geojson.cpp:3:
+/home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/smart_ptr/detail/shared_count.hpp:356:33: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+     explicit shared_count( std::auto_ptr<Y> & r ): pi_( new sp_counted_impl_p<Y>( r.get() ) )
+                                 ^~~~~~~~
+In file included from /usr/include/c++/7/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7/locale:43,
+                 from /usr/include/c++/7/iomanip:43,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/Rcpp/include/RcppCommon.h:52,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/Rcpp/include/Rcpp.h:27,
+                 from sf_geojson.cpp:2:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/shared_ptr.hpp:17:0,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/gregorian/greg_month.hpp:14,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/gregorian/greg_ymd.hpp:16,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/gregorian/greg_calendar.hpp:17,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/gregorian/gregorian_types.hpp:19,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/posix_time/posix_time_config.hpp:18,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/posix_time/posix_time_system.hpp:13,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/posix_time/ptime.hpp:12,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/posix_time/posix_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/local_time/local_time.hpp:11,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/to_json/dates/dates.hpp:5,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/to_json/writers/complex.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/to_json/api.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/jsonify.hpp:11,
+                 from ../inst/include/geojsonsf/geojson/api/sf_api.hpp:4,
+                 from sf_geojson.cpp:3:
+/home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/smart_ptr/shared_ptr.hpp:256:65: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+ template< class T, class R > struct sp_enable_if_auto_ptr< std::auto_ptr< T >, R >
+                                                                 ^~~~~~~~
+In file included from /usr/include/c++/7/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7/locale:43,
+                 from /usr/include/c++/7/iomanip:43,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/Rcpp/include/RcppCommon.h:52,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/Rcpp/include/Rcpp.h:27,
+                 from sf_geojson.cpp:2:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/shared_ptr.hpp:17:0,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/gregorian/greg_month.hpp:14,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/gregorian/greg_ymd.hpp:16,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/gregorian/greg_calendar.hpp:17,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/gregorian/gregorian_types.hpp:19,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/posix_time/posix_time_config.hpp:18,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/posix_time/posix_time_system.hpp:13,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/posix_time/ptime.hpp:12,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/posix_time/posix_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/local_time/local_time.hpp:11,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/to_json/dates/dates.hpp:5,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/to_json/writers/complex.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/to_json/api.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/jsonify.hpp:11,
+                 from ../inst/include/geojsonsf/geojson/api/sf_api.hpp:4,
+                 from sf_geojson.cpp:3:
+/home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/smart_ptr/shared_ptr.hpp:471:31: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+     explicit shared_ptr( std::auto_ptr<Y> & r ): px(r.get()), pn()
+                               ^~~~~~~~
+In file included from /usr/include/c++/7/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7/locale:43,
+                 from /usr/include/c++/7/iomanip:43,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/Rcpp/include/RcppCommon.h:52,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/Rcpp/include/Rcpp.h:27,
+                 from sf_geojson.cpp:2:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/shared_ptr.hpp:17:0,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/gregorian/greg_month.hpp:14,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/gregorian/greg_ymd.hpp:16,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/gregorian/greg_calendar.hpp:17,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/gregorian/gregorian_types.hpp:19,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/posix_time/posix_time_config.hpp:18,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/posix_time/posix_time_system.hpp:13,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/posix_time/ptime.hpp:12,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/posix_time/posix_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/local_time/local_time.hpp:11,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/to_json/dates/dates.hpp:5,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/to_json/writers/complex.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/to_json/api.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/jsonify.hpp:11,
+                 from ../inst/include/geojsonsf/geojson/api/sf_api.hpp:4,
+                 from sf_geojson.cpp:3:
+/home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/smart_ptr/shared_ptr.hpp:484:22: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+     shared_ptr( std::auto_ptr<Y> && r ): px(r.get()), pn()
+                      ^~~~~~~~
+In file included from /usr/include/c++/7/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7/locale:43,
+                 from /usr/include/c++/7/iomanip:43,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/Rcpp/include/RcppCommon.h:52,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/Rcpp/include/Rcpp.h:27,
+                 from sf_geojson.cpp:2:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/shared_ptr.hpp:17:0,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/gregorian/greg_month.hpp:14,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/gregorian/greg_ymd.hpp:16,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/gregorian/greg_calendar.hpp:17,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/gregorian/gregorian_types.hpp:19,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/posix_time/posix_time_config.hpp:18,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/posix_time/posix_time_system.hpp:13,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/posix_time/ptime.hpp:12,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/posix_time/posix_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/local_time/local_time.hpp:11,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/to_json/dates/dates.hpp:5,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/to_json/writers/complex.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/to_json/api.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/jsonify.hpp:11,
+                 from ../inst/include/geojsonsf/geojson/api/sf_api.hpp:4,
+                 from sf_geojson.cpp:3:
+/home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/smart_ptr/shared_ptr.hpp:567:34: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+     shared_ptr & operator=( std::auto_ptr<Y> & r )
+                                  ^~~~~~~~
+In file included from /usr/include/c++/7/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7/locale:43,
+                 from /usr/include/c++/7/iomanip:43,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/Rcpp/include/RcppCommon.h:52,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/Rcpp/include/Rcpp.h:27,
+                 from sf_geojson.cpp:2:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/shared_ptr.hpp:17:0,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/gregorian/greg_month.hpp:14,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/gregorian/greg_ymd.hpp:16,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/gregorian/greg_calendar.hpp:17,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/gregorian/gregorian_types.hpp:19,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/posix_time/posix_time_config.hpp:18,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/posix_time/posix_time_system.hpp:13,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/posix_time/ptime.hpp:12,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/posix_time/posix_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/local_time/local_time.hpp:11,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/to_json/dates/dates.hpp:5,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/to_json/writers/complex.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/to_json/api.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/jsonify.hpp:11,
+                 from ../inst/include/geojsonsf/geojson/api/sf_api.hpp:4,
+                 from sf_geojson.cpp:3:
+/home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/smart_ptr/shared_ptr.hpp:576:34: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+     shared_ptr & operator=( std::auto_ptr<Y> && r )
+                                  ^~~~~~~~
+In file included from /usr/include/c++/7/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7/locale:43,
+                 from /usr/include/c++/7/iomanip:43,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/Rcpp/include/RcppCommon.h:52,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/Rcpp/include/Rcpp.h:27,
+                 from sf_geojson.cpp:2:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/shared_ptr.hpp:17:0,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/gregorian/greg_month.hpp:14,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/gregorian/greg_ymd.hpp:16,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/gregorian/greg_calendar.hpp:17,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/gregorian/gregorian_types.hpp:19,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/posix_time/posix_time_config.hpp:18,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/posix_time/posix_time_system.hpp:13,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/posix_time/ptime.hpp:12,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/posix_time/posix_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/local_time/local_time.hpp:11,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/to_json/dates/dates.hpp:5,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/to_json/writers/complex.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/to_json/api.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/jsonify.hpp:11,
+                 from ../inst/include/geojsonsf/geojson/api/sf_api.hpp:4,
+                 from sf_geojson.cpp:3:
+/home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/smart_ptr/shared_ptr.hpp: In member function ‘boost::shared_ptr<T>& boost::shared_ptr<T>::operator=(std::auto_ptr<_Up>&&)’:
+/home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/smart_ptr/shared_ptr.hpp:578:38: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+         this_type( static_cast< std::auto_ptr<Y> && >( r ) ).swap( *this );
+                                      ^~~~~~~~
+In file included from /usr/include/c++/7/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7/locale:43,
+                 from /usr/include/c++/7/iomanip:43,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/Rcpp/include/RcppCommon.h:52,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/Rcpp/include/Rcpp.h:27,
+                 from sf_geojson.cpp:2:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+In file included from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/bind/mem_fn.hpp:25:0,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/mem_fn.hpp:22,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/function/detail/prologue.hpp:18,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/function.hpp:30,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/algorithm/string/detail/find_iterator.hpp:18,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/algorithm/string/find_iterator.hpp:24,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/algorithm/string/iter_find.hpp:27,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/algorithm/string/split.hpp:16,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/algorithm/string.hpp:23,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/tz_db_base.hpp:24,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/local_time/tz_database.hpp:14,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time/local_time/local_time.hpp:19,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/date_time.hpp:15,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/to_json/dates/dates.hpp:5,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/to_json/writers/complex.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/to_json/api.hpp:6,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/jsonify/include/jsonify/jsonify.hpp:11,
+                 from ../inst/include/geojsonsf/geojson/api/sf_api.hpp:4,
+                 from sf_geojson.cpp:3:
+/home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/get_pointer.hpp: At global scope:
+/home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/BH/include/boost/get_pointer.hpp:48:40: warning: ‘template<class> class std::auto_ptr’ is deprecated [-Wdeprecated-declarations]
+ template<class T> T * get_pointer(std::auto_ptr<T> const& p)
+                                        ^~~~~~~~
+In file included from /usr/include/c++/7/bits/locale_conv.h:41:0,
+                 from /usr/include/c++/7/locale:43,
+                 from /usr/include/c++/7/iomanip:43,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/Rcpp/include/RcppCommon.h:52,
+                 from /home/dave/Documents/github/rapidjsonr/revdep/library/geojsonsf/Rcpp/include/Rcpp.h:27,
+                 from sf_geojson.cpp:2:
+/usr/include/c++/7/bits/unique_ptr.h:51:28: note: declared here
+   template<typename> class auto_ptr;
+                            ^~~~~~~~
+ccache g++ -std=gnu++11 -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -Wl,-z,relro -o geojsonsf.so RcppExports.o df_geojson.o geojson_to_sf.o geojson_to_wkt.o geojson_wkt.o read_geojson.o sf_geojson.o -L/usr/lib/R/lib -lR
+installing to /home/dave/Documents/github/rapidjsonr/revdep/checks/geojsonsf/old/geojsonsf.Rcheck/00LOCK-geojsonsf/00new/geojsonsf/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (geojsonsf)
