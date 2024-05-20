@@ -47,3 +47,12 @@ To use `rapidjsonr` in your own package, add a dependency to `rapidjsonr` to you
 This package is provided under the MIT license, as per Rapidjson itself. 
 
 
+## Build Notes
+
+Allow `#include <string>` in `rapidjson.h` by commenting out the `#if` guards
+
+```
+//#if RAPIDJSON_HAS_STDSTRING
+#include <string>
+//#endif // RAPIDJSON_HAS_STDSTRING
+```

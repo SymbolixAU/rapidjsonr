@@ -158,9 +158,9 @@
 */
 #endif // !defined(RAPIDJSON_HAS_STDSTRING)
 
-#if RAPIDJSON_HAS_STDSTRING
+//#if RAPIDJSON_HAS_STDSTRING
 #include <string>
-#endif // RAPIDJSON_HAS_STDSTRING
+//#endif // RAPIDJSON_HAS_STDSTRING
 
 ///////////////////////////////////////////////////////////////////////////////
 // RAPIDJSON_USE_MEMBERSMAP
@@ -462,7 +462,7 @@ RAPIDJSON_NAMESPACE_END
 #if defined(__GNUC__) || defined(__clang__)
 #define RAPIDJSON_STATIC_ASSERT_UNUSED_ATTRIBUTE __attribute__((unused))
 #else
-#define RAPIDJSON_STATIC_ASSERT_UNUSED_ATTRIBUTE 
+#define RAPIDJSON_STATIC_ASSERT_UNUSED_ATTRIBUTE
 #endif
 #ifndef __clang__
 //!@endcond
