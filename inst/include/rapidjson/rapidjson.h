@@ -158,9 +158,9 @@
 */
 #endif // !defined(RAPIDJSON_HAS_STDSTRING)
 
-//#if RAPIDJSON_HAS_STDSTRING
+#if RAPIDJSON_HAS_STDSTRING
 #include <string>
-//#endif // RAPIDJSON_HAS_STDSTRING
+#endif // RAPIDJSON_HAS_STDSTRING
 
 ///////////////////////////////////////////////////////////////////////////////
 // RAPIDJSON_USE_MEMBERSMAP
